@@ -571,6 +571,51 @@ Collegherai ogni sezione della pagina agli elementi del menu corrispondenti. -->
         </p>
       </div>
     </footer>
+
+    <div class="modal fade" id="contactModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contattaci</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="nome@esempio.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Messaggio</label>
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="scrivi qui il tuo messaggio"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Chiudi
+            </button>
+            <button type="button" class="btn btn-info text-white">Invia</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- EXTRAS -->
 
     <!-- 12) Crea un bottone vicino ad ogni sezione per collassarla e riaprirla se premuto. -->
